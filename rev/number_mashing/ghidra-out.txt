@@ -1,0 +1,25 @@
+int local_11c;
+int local_118;
+int local_114;
+
+/************************************************************/
+
+printf("Give me some numbers: ");
+__isoc99_scanf("%d %d",&local_11c,&local_118);
+
+if (((local_11c == 0) || (local_118 == 0)) || (local_118 == 1)) {
+  puts("Nope!");
+                  // WARNING: Subroutine does not return
+  exit(1);
+}
+
+local_114 = 0;
+if (local_118 != 0) {
+  local_114 = local_11c / local_118;
+}
+
+if (local_114 != local_11c) {
+  puts("Nope!");
+                  // WARNING: Subroutine does not return
+  exit(1);
+}
