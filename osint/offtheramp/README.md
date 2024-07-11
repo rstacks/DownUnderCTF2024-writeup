@@ -10,14 +10,20 @@ e.g <code>DUCTF{name_of_structure}</code>
 
 ## Attachments
 
-offtheramp.jpeg
+[offtheramp.jpeg](https://github.com/rstacks/DownUnderCTF2024-writeup/blob/master/osint/offtheramp/attachments/offtheramp.jpeg)
 
 ## Solution
 
-I took the hint from the challenge description and used exiftool to examine the provided
-image's metadata. Of particular note were the last few lines, which seemed to be the coordinates
-at which this photo was taken. I entered the coordinates into Google Maps, which brought me
-to a location in Melbourne. A nearby location of note was Olivers Hill Boat Ramp, which was indeed
-the flag.
+- I took the hint from the challenge description and used <code>exiftool</code> to examine the provided
+image's [metadata](https://github.com/rstacks/DownUnderCTF2024-writeup/blob/master/osint/offtheramp/metadata.txt).
+- Of particular note were the last few lines, which seemed to be the coordinates
+at which this photo was taken. I entered the coordinates into [Google Maps](https://www.google.com/maps), which brought me
+to a location in Melbourne:
 
-flag: DUCTF{Olivers Hill Boat Ramp}
+![Google Maps screenshot](location.png)
+
+- A nearby location of note was Olivers Hill Boat Ramp, which was indeed the flag.
+
+## Flag
+
+DUCTF{Olivers Hill Boat Ramp}
