@@ -11,12 +11,13 @@ NOTE: Wrap your answer in the <code>DUCTF{}</code>, e.g. <code>DUCTF{nmap_7.25}<
 
 ## Attachments
 
-capture.pcap
+[capture.pcap](https://github.com/rstacks/DownUnderCTF2024-writeup/blob/master/forensics/BabysFirstForensics/attachments/capture.pcap)
 
 ## Solution
 
-I opened the pcap file in Wireshark, then went to Analyze->Follow->TCP Stream. The first block
-of text there, which you can view here, revealed the tool the attackers used: Nikto 2.1.6. This
-was the flag.
+- I opened the PCAP file in [Wireshark](https://www.wireshark.org/), then clicked through Analyze->Follow->TCP Stream.
+- The first block of text there, which you can view [here](https://github.com/rstacks/DownUnderCTF2024-writeup/blob/master/forensics/BabysFirstForensics/wireshark_output.txt), revealed the tool the attackers used: **Nikto 2.1.6**. This was the flag.
 
-flag: DUCTF{Nikto_2.1.6}
+## Flag
+
+DUCTF{Nikto_2.1.6}
