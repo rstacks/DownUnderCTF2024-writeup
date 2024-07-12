@@ -16,3 +16,5 @@ I was the sole member of team Boy Wonder. I scored **700 points** in total and f
 ![Results image](results.png)
 
 ![Solves list image](solves.png)
+
+*Note that I did not complete writeups for the "discord" and "survey" challenges, as these were extremely straightforward and not meant to be actual challenges.
