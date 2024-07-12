@@ -7,7 +7,50 @@ Click [here](https://github.com/rstacks/ctf-writeups) to check out my writeups f
 
 ## Solved Challenges
 
+<details>
+  <summary>Forensics</summary>
+  
+  * [Baby's First Forensics](https://github.com/rstacks/DownUnderCTF2024-writeup/tree/master/forensics/BabysFirstForensics)
+
+</details>
+
+<details>
+  <summary>Misc</summary>
+
+  * [tldr please summarise](https://github.com/rstacks/DownUnderCTF2024-writeup/tree/master/misc/tldr_please_summarise)
+  
+</details>
+
+<details>
+  <summary>OSINT</summary>
+
+  * [offtheramp](https://github.com/rstacks/DownUnderCTF2024-writeup/tree/master/osint/offtheramp)
+  
+</details>
+
+<details>
+  <summary>Rev</summary>
+
+  * [number mashing](https://github.com/rstacks/DownUnderCTF2024-writeup/tree/master/rev/number_mashing)
+
+</details>
+
+<details>
+  <summary>Web</summary>
+
+  * [zoo feedback form](https://github.com/rstacks/DownUnderCTF2024-writeup/tree/master/web/zoo_feedback_form)
+  
+</details>
+
 ## Unfinished Challenges
+
+<details>
+  <summary>Crypto</summary>
+
+  * [Sun Zi's Perfect Math Class](https://github.com/rstacks/DownUnderCTF2024-writeup/tree/master/crypto/SunZisPerfectMathClass_UNFINISHED)
+  * [shufflebox](https://github.com/rstacks/DownUnderCTF2024-writeup/tree/master/crypto/shufflebox_UNFINISHED)
+  
+</details>
 
 ## Results
 
